@@ -1,24 +1,30 @@
 ﻿body {
-    padding-top: 50px;
-    padding-bottom: 20px;
+   margin: 0;
+   padding: 0;
 }
 
-/* Set padding to keep content from hitting the edges */
-.body-content {
-    padding-left: 15px;
-    padding-right: 15px;
+.bg principal {
+    background-color: #392F2D;
 }
 
-/* Override the default bootstrap behavior where horizontal description lists 
-   will truncate terms that are too long to fit in the left column 
-*/
-.dl-horizontal dt {
-    white-space: normal;
+.icons {
+    padding: 10px;
+    font-size: 50px;
+    width: 100%;
+    display: flex;
+    justify-content:space-around;
+    
 }
-
-/* Set width on the form input elements since they're 100% wide by default */
-input,
-select,
-textarea {
-    max-width: 280px;
+.fa-facebook {
+    color: #525252;
+    
+}
+.fa-youtube {
+    color: #525252;
+}
+.fa-instagram {
+    color: #525252;
+}
+.fa-twitter {
+    color: #525252;
 }

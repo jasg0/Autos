@@ -28,3 +28,19 @@
 .fa-twitter {
     color: #525252;
 }
+
+.mapa {
+    
+    justify-content: space-around;
+    display: flex;
+    
+}
+
+    .mapa iframe{
+        margin-right:1rem;
+    }
+
+    .titulo{
+        justify-content:center;
+        text-align:center;
+    }

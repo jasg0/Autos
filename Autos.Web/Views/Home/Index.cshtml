@@ -50,7 +50,7 @@
                 </div>
                 <div class="col-lg-8 align-self-baseline">
                     <p class="text-white-75 font-weight-light mb-5">Ven y conoce todos los autos mas veloces y magnificos de todo el mundo!</p>
-                    <a class="btn btn-primary btn-xl js-scroll-trigger" href= @Html.ActionLink("Ver mas", "Images", "Home", null, new { @class = "nav-link" })</a>
+                    <a class="btn btn-primary btn-xl js-scroll-trigger"  @Html.ActionLink("Ver mas", "about", "Home", null, new { @class = "nav-link" })</a>
                 </div>
             </div>
         </div>
@@ -66,29 +66,29 @@
                 <div class="col-lg-3 col-md-6 text-center">
                     <div class="mt-5">
                         <i class="fas fa-4x fa-gem text-primary mb-4"></i>
-                        <h3 class="h4 mb-2">Sturdy Themes</h3>
-                        <p class="text-muted mb-0">Our themes are updated regularly to keep them bug free!</p>
+                        <h3 class="h4 mb-2">Ventas</h3>
+                        <p class="text-muted mb-0">Puedes comprar cualquier auto de tus sueños!</p>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6 text-center">
                     <div class="mt-5">
                         <i class="fas fa-4x fa-laptop-code text-primary mb-4"></i>
-                        <h3 class="h4 mb-2">Up to Date</h3>
-                        <p class="text-muted mb-0">All dependencies are kept current to keep things fresh.</p>
+                        <h3 class="h4 mb-2">Facil uso</h3>
+                        <p class="text-muted mb-0">Facil de usar al comprar autos.</p>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6 text-center">
                     <div class="mt-5">
                         <i class="fas fa-4x fa-globe text-primary mb-4"></i>
-                        <h3 class="h4 mb-2">Ready to Publish</h3>
-                        <p class="text-muted mb-0">You can use this design as is, or you can make changes!</p>
+                        <h3 class="h4 mb-2">Listo para comprar</h3>
+                        <p class="text-muted mb-0">Los autos de tus sueños ala compra de 1 click!</p>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6 text-center">
                     <div class="mt-5">
                         <i class="fas fa-4x fa-heart text-primary mb-4"></i>
-                        <h3 class="h4 mb-2">Made with Love</h3>
-                        <p class="text-muted mb-0">Is it really open source if it's not made with love?</p>
+                        <h3 class="h4 mb-2">Compras con amor</h3>
+                        <p class="text-muted mb-0">enamorate comprando facilmente?</p>
                     </div>
                 </div>
             </div>
@@ -161,7 +161,7 @@
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-lg-8 text-center">
-                    <h2 class="mt-0"><li class="nav-item"> @Html.ActionLink("Contactanos!", "Contact", "Home", null, new { @class = "nav-link" })</li></h2>
+                    <h2 class="mt-0"> @Html.ActionLink("Contactanos!", "Contact", "Home", null, new { @class = "nav-link" })</h2>
                     <hr class="divider my-4" />
                     <p class="text-muted mb-5">Listo para elegir el auto mas rapido y grandioso que nunca miraste antes!</p>
                 </div>
@@ -181,7 +181,7 @@
     </section>
     <!-- Footer-->
     <footer class="bg-light py-5">
-        <div class="container"><div class="small text-center text-muted">Copyright © 2020 - Start Bootstrap</div></div>
+        <div class="container"><div class="small text-center text-muted">Copyright © 2020 - AutosMX</div></div>
     </footer>
     <!-- Bootstrap core JS-->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>

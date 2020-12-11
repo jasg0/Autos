@@ -44,3 +44,12 @@
         justify-content:center;
         text-align:center;
     }
+
+form p input{
+    width: 100%;
+}
+form div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}

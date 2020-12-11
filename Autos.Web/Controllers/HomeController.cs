@@ -26,5 +26,15 @@ namespace Autos.Web.Controllers
 
             return View();
         }
+        public ActionResult Images()
+        {
+            
+            return View();
+        }
+        public ActionResult Compras()
+        {
+           
+            return View();
+        }
     }
 }

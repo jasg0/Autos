@@ -29,5 +29,6 @@ namespace Autos.Web.Models
         {
             return new ApplicationDbContext();
         }
+        public DbSet<Carro> Carros { get; set; }
     }
 }

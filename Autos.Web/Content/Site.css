@@ -69,3 +69,6 @@ form p{
 .rb input{
     margin-right: 2rem;
 }
+table tr th, td {
+    color: white;
+}

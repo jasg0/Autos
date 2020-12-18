@@ -72,3 +72,51 @@ form p{
 table tr th, td {
     color: white;
 }
+
+@media (max-width: 1000px) {
+    .TituloImagenes{
+        font-size: 3rem;
+    }
+    .SubTituloImagenes{
+        font-size: 4rem;
+    }
+}
+@media (max-width: 770px){
+    p {
+        text-align: justify;
+    }
+    .TituloImagenes {
+        font-size: 2.5rem;
+    }
+
+    .SubTituloImagenes {
+        font-size: 3.5rem;
+    }
+    .Imgs img {
+        height: 12rem;
+    }
+}
+@media (max-width: 600px) {
+    p, .mapa, address{
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+    .TituloImagenes {
+        font-size: 2.5rem;
+    }
+
+    .SubTituloImagenes {
+        font-size: 3.5rem;
+    }
+}
+@media (max-width: 400px) {
+    .TituloImagenes {
+        font-size: 1.5rem;
+    }
+    .SubTituloImagenes {
+        font-size: 2.5rem;
+    }
+    .Imgs img {
+        height: 8rem;
+    }
+}
